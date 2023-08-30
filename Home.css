@@ -13,7 +13,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 61px auto 0;
+  margin: 29px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -25,7 +25,12 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 31px auto 0;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 500;
+  margin: 41px 49px 0 163px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -40,8 +45,21 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 150px auto 60px;
+  margin: 111px auto 60px;
   padding: 39px 66px 39px 65px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-3 {
+    margin-left: 12px;
+    margin-right: -11px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767px) {
