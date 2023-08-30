@@ -3,21 +3,28 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 890px;
+  min-height: 720px;
 }
 
 .u-section-1 .u-text-1 {
+  font-size: 3rem;
+  font-family: Aleo;
+  width: auto;
+  margin: 21px auto 0;
+}
+
+.u-section-1 .u-text-2 {
   font-family: Aleo;
   font-size: 2.25rem;
   width: 647px;
   margin: 21px auto 0;
 }
 
-.u-section-1 .u-text-2 {
+.u-section-1 .u-text-3 {
   font-family: Aleo;
   font-size: 1.5rem;
-  width: 647px;
-  margin: 38px auto 0;
+  font-weight: 700;
+  margin: 40px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -25,26 +32,89 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.875rem;
-  margin: 62px auto 60px;
+  margin: 40px 438px 60px auto;
   padding: 36px 27px 37px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 43px;
+    margin-right: 322px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 29px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: 25px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 43px;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 35px;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 37px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 35px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 65px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    width: 540px;
+    margin-top: 20px;
   }
 
   .u-section-1 .u-text-2 {
-    width: 540px;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 20px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 36px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 744px;
+  }
+
   .u-section-1 .u-text-1 {
-    width: 340px;
+    margin-top: 39px;
   }
 
   .u-section-1 .u-text-2 {
-    width: 340px;
+    margin-top: 24px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 24px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 15px;
   }
 }
