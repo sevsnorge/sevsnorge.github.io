@@ -29,8 +29,10 @@
 }
 
 .u-section-1 .u-text-3 {
+  font-family: Acme;
   font-weight: 500;
-  margin: 41px 49px 0 163px;
+  font-size: 1.875rem;
+  margin: 41px 106px 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -51,7 +53,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-3 {
-    margin-left: 12px;
+    margin-left: 6px;
     margin-right: -11px;
   }
 }

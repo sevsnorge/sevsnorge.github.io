@@ -42946,21 +42946,25 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
-.u-header .u-menu-1 {
-  margin: -78px 82px 121px auto;
-}
-
-.u-header .u-nav-1 {
-  font-size: 1.25rem;
-}
-@media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    margin-top: -78px;
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 161px;
   }
 }
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 157px;
+  }
 
-
-
+  .u-header .u-image-1 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 161px;
+  }
+}
  .u-footer {
   background-image: none;
 }
